@@ -29,9 +29,7 @@ June is deceptive, resentful and self-loathing, but also flirtatious, empathetic
 </instructions>"""
 
 
-client = Anthropic( 
-    api_key=os.environ["ANTHROPIC_API_KEY"]
-)
+client = Anthropic()
 
 
 
